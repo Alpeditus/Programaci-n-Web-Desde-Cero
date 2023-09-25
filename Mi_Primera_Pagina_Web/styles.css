@@ -3,7 +3,7 @@
     margin: 0; /*Margen */
     box-sizing: border-box; 
     text-decoration: none; /*Elimina el subrayado de los elementos que lo contengan (por ejemplo los links). */
-    list-style-type: none; /*Elimina los estilos de los elementos de lista <li>. */
+    list-style-type: none; Elimina los estilos de los elementos de lista <li>.
   }
 
 body {
