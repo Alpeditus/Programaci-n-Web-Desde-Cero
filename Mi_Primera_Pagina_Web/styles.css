@@ -3,20 +3,51 @@
     margin: 0; /*Margen */
     box-sizing: border-box; 
     text-decoration: none; /*Elimina el subrayado de los elementos que lo contengan (por ejemplo los links). */
-    list-style-type: none; Elimina los estilos de los elementos de lista <li>.
+    list-style-type: none; /*Elimina los estilos de los elementos de lista <li>. */
   }
 
 body {
-  background-color: aquamarine;
+  /* Color de fondo para todo el BODY. */
+  background-color: burlywood;
 }
 
 header {
-  background-color: bisque;
+  /* Formato para todo el HEADER. */
+  background-color: aqua;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 20px;
   padding: 20px;
   margin: 10px;
   width: 100%;
+}
+
+main section div.div1{
+  text-align: center;
+}
+
+header h1.logo{
+  display: inline-block;
+  line-height: 80px;
+  padding: 0 50px;
+  font-weight: bold;
+}
+
+header nav{
+  float: right;
+}
+
+header nav ul li {
+  /* Agregar propiedad de display. */
+  display: inline-block;
+  margin-right: 20px;
+  line-height: 80px;
+}
+
+footer nav ul li {
+  /* Agregar propiedad de display. */
+  display: inline-block;
+  margin-right: 20px;
+  line-height: 50px;
 }
 
 main {
@@ -29,7 +60,8 @@ main {
 }
 
 p {
-  font-size: 12px;
+  font-size: 15px;
+  line-height: 30px;
 }
 
 footer {
@@ -38,6 +70,15 @@ footer {
   padding: 20px;
   margin: 10px;
   width: 100%;
+}
+
+footer nav{
+  float: right;
+}
+
+footer h4.sociales{
+  display: inline-block;
+  line-height: 50px;
 }
 
 .fuente-clara {color: #eeeeee;}

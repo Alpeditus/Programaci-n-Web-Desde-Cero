@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration-line: none; /*Elimina el subrayado de los links.*/
+  list-style-type: none; /*Elimina la decoración (circulo, cuadrado, etc) de un <ul>*/
+}
+
+.menu {
+  background-color: aqua;
+  height: 100px;
+}
+
+.barra-lateral {
+  background-color: crimson;
+  height: 300px;
+  width: 200px;
+  float: left;
+}
+
+.contenido {
+  background-color: blanchedalmond;
+  height: 300px;
+}
+
+.pie {
+  background-color: aqua;
+  height: 200px;
+}
