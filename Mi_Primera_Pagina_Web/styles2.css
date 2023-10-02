@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style-type: none; /* Elimina icono de las listas. */
+  text-decoration: none; /* Elimina el subrayado de los links. */
+  box-sizing: none;
+}
+
+body {
+  background-color: rgb(218, 209, 198);
+}
+
+header {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(85, 19, 19);
+  font-family: Arial;
+  color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+.nav-principal ul li:hover {
+  color: rgb(85, 19, 19);
+  background-color: whitesmoke;
+}
+
+main {
+  margin: 10px;
+  background-color: aquamarine;
+}
+
+.section-principal {
+  text-align: center;
+  background-color: cornflowerblue;
+  width: 100%;
+}
+
+.section-secundario {
+  margin: 10px;
+  background-color: rgb(114, 214, 55);
+  width: auto;
+  height: 500px;
+}
+
+.section-principal p {
+  font-size: 12px;
+}
+
+.section-secundario img {
+  width: 40%;
+}
+
+.cont {
+  float: left;
+  margin: 10px;
+  width: 400px;
+  height: 100px;
+}
+
+.footer {
+  clear: both;
+}
+
+footer {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(85, 19, 19);
+  color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+.nav-redes ul li:hover {
+  color: rgb(85, 19, 19);
+  background-color: whitesmoke;
+}
+
+.fuente-clara {
+  color: #eeeeee;
+}
+
+.fuente-oscura {
+  color: #22211f;
+}
+
+.fuente-acento {
+  color: #b59a61;
+}

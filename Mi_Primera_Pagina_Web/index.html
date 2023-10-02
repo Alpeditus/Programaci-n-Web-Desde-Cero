@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Mi primera página web</title>
+    <link rel="stylesheet" href="styles2.css" />
   </head>
   <body>
-    <header class="fuente-oscura">
-      <h1 class="logo">Mi web</h1>
-      <nav>
+    <header>
+      <h1 class="fuente-acento">Mi web</h1>
+      <nav class="nav-principal">
         <ul>
           <li>Inicio</li>
           <li>Trabajos</li>
@@ -19,29 +19,30 @@
         </ul>
       </nav>
     </header>
+
     <main>
       <section class="section-principal">
-        <div class="div1">
-          <h2>Acerca de mí</h2>
-          <hr />
-          <p class="fuente-oscura">
-            ¡Bienvenido a mi página "Acerca de "! Aquí, aprenderás más sobre mí.
-          </p>
-          <p id="intro" class="fuente-oscura">
-            Mi nombre es Cristian Castillo, estoy arrancanco la carrera de
-            programación, comencé como estudiante de "Fullstack" en la
-            plataforma Egg, "Programación Web Desde Cero" en la misma
-            plataforma.
-          </p>
-          <img
-            src="img/IMG_20230611_152339303_BURST000_COVER_TOP.jpg"
-            width="40%"
-          />
-        </div>
-        <div id="propiedad">
-          <div class="propiedad1">
+        <h2>Acerca de mí</h2>
+        <hr />
+        <p class="fuente-oscura">
+          ¡Bienvenidos gente maravillosa! A continuación les presento un poco de
+          mi vida.
+        </p>
+        <p class="fuente-oscura">
+          Mi nombre es Cristian Castillo, estoy arrancanco la carrera de
+          programación, comencé como estudiante de "Fullstack" en la plataforma
+          Egg, "Programación Web Desde Cero" en la misma plataforma.
+        </p>
+        <img src="img/presentacion.jpg" width="20%" />
+        <br />
+        <img src="img/banner.jpg" width="100%" />
+      </section>
+
+      <section class="section-secundario">
+        <div class="fuente-oscura">
+          <div class="cont">
+            <img src="img/contenido1.webp" class="" />
             <h4>Contenido 1</h4>
-            <img src="img/contenido1.webp" class="propiedad1 cont1" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro,
               modi expedita. Autem accusantium porro vero quae expedita dolor
@@ -52,9 +53,10 @@
               odit nam soluta hic eius amet a!
             </p>
           </div>
-          <div class="propiedad2">
+
+          <div class="cont">
+            <img src="img/contenido2.webp" class="" />
             <h4>Contenido 2</h4>
-            <img src="img/contenido2.webp" class="propiedad2 cont2" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro,
               modi expedita. Autem accusantium porro vero quae expedita dolor
@@ -66,9 +68,10 @@
               incidunt dolore!
             </p>
           </div>
-          <div class="propiedad3">
+
+          <div class="cont">
+            <img src="img/contenido3.webp" class="" />
             <h4>Contenido 3</h4>
-            <img src="img/contenido3.webp" class="propiedad3 cont3" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro,
               modi expedita. Autem accusantium porro vero quae expedita dolor
@@ -79,13 +82,56 @@
               explicabo architecto dolores possimus nam quaerat, quidem laborum.
             </p>
           </div>
+
+          <!--
+          <div class="cont">
+            <img src="img/contenido4.jpeg" class="" />
+            <h4>Contenido 4</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+              omnis distinctio dolore, necessitatibus id ad ab porro sapiente.
+              Nulla blanditiis aspernatur rem nisi, id earum dolorum qui
+              architecto saepe ipsam. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Quasi, asperiores. Esse aliquam aut corporis
+              dolor, ratione voluptate. Sint, perferendis explicabo harum sequi
+              facilis non nulla expedita, sunt est, quam ab?
+            </p>
+          </div>
+
+          <div class="cont">
+            <img src="img/contenido5.jpg" class="" />
+            <h4>Contenido 5</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+              omnis distinctio dolore, necessitatibus id ad ab porro sapiente.
+              Nulla blanditiis aspernatur rem nisi, id earum dolorum qui
+              architecto saepe ipsam. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Quasi, asperiores. Esse aliquam aut corporis
+              dolor, ratione voluptate. Sint, perferendis explicabo harum sequi
+              facilis non nulla expedita, sunt est, quam ab?
+            </p>
+          </div>
+
+          <div class="cont">
+            <img src="img/contenido6.jpg" class="" />
+            <h4>Contenido 6</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+              omnis distinctio dolore, necessitatibus id ad ab porro sapiente.
+              Nulla blanditiis aspernatur rem nisi, id earum dolorum qui
+              architecto saepe ipsam. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Quasi, asperiores. Esse aliquam aut corporis
+              dolor, ratione voluptate. Sint, perferendis explicabo harum sequi
+              facilis non nulla expedita, sunt est, quam ab?
+            </p>
+          </div>-->
         </div>
       </section>
     </main>
-    
-    <footer class="fuente-oscura">
-      <h4 class="sociales">Redes Sociales</h4>
-      <nav>
+
+    <footer class="footer">
+      <h4 class="titulo2">Redes Sociales</h4>
+      <nav class="nav-redes">
         <ul>
           <li>Facebook</li>
           <li>Instagram</li>
@@ -94,5 +140,6 @@
         </ul>
       </nav>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
